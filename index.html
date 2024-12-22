@@ -1,11 +1,696 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Manichandra | Portfolio</title>
+
+    <!-- TODO: Primary Meta Tags -->
+    <meta name="title" content="Manichandra">
+    <meta name="keywords"
+        content="Manichandra, Mani Chandra, Manichandra Software Engineer, Mani, Chandra, mani-chandra, mani_chandra, mani, Manichandra sru, Manichandra Hyderabad, Manichandra Telangana">
+    <meta name="description" content="Manichandra is a Software Engineer.">
+    <meta name="image" content="https://portfolio.app/assets/og-img.png">
+
+    <!-- TODO: Google Site Verification -->
+    <meta name="google-site-verification" content="">
+
+    <!-- TODO: LinkedIn Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://md-portfolio.short.gy/LinkedIn">
+    <meta property="og:title" content="Manichandra">
+    <meta property="og:description"
+        content="Manichandra is a Software Engineer, passionate about building scalable solutions.">
+    <meta property="og:image" content="https://portfolio.app/assets/og-img.png">
+    <meta property="og:image:alt" content="Image representing Manichandra, Software Engineer">
+    <meta property="og:site_name" content="My Portfolio">
+    <meta name="author" content="name">
+
+    <!-- TODO: GitHub Open Graph -->
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://md-portfolio.short.gy/GitHub">
+    <meta property="og:title" content="Manichandra - GitHub Profile">
+    <meta property="og:description"
+        content="Manichandra is a Software Engineer and open-source contributor. Check out the repositories.">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/username?s=200">
+
+    <!-- TODO: LeetCode Open Graph -->
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://md-portfolio.short.gy/LeetCode">
+    <meta property="og:title" content="Manichandra - LeetCode Profile">
+    <meta property="og:description"
+        content="Manichandra is a Software Engineer with a passion for problem-solving. Check out my LeetCode profile for challenges.">
+    <meta property="og:image" content="https://leetcode.com/static/images/avatars/default_avatar.png">
+
+    <!-- TODO: Canonical Link -->
+    <link rel="canonical" href="https://md-portfolio.short.gy/Canonical">
+
+    <!-- Site Favicon Links -->
+    <link rel="icon" href="assets/favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" href="assets/favicon_io/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" href="assets/favicon_io/android-chrome-512x512.png" sizes="512x512">
+    <link rel="icon" href="assets/favicon_io/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="assets/favicon_io/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="assets/favicon_io/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+    <meta name="msapplication-TileImage" content="mstile-144x144.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="lib/stackpath.bootstrapcdn/bootstrap.min.css" rel="stylesheet">
+    <!-- https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css -->
+    <link href="lib/cdnjs.cloudflare/all.min.css    " rel="stylesheet">
+    <!-- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css -->
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
-    
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <!-- <img src="assets/profile.jpg" alt="Profile Image"> -->
+            </div>
+            <div class="sidebar-content">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">Menu</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#header">Home<i class="fa fa-home"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About<i class="fa fa-address-card"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#education">Education<i class="fa fa-university"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#experience">Experience<i class="fa fa-briefcase"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills<i class="fa fa-tasks"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#project">Projects<i class="fa fa-project-diagram"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio<i class="fa fa-folder"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact<i class="fa fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="sidebar-footer">
+                <a href="https://md-portfolio.short.gy/LinkedIn" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://md-portfolio.short.gy/GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://md-portfolio.short.gy/LeetCode" target="_blank"><i class="fa fa-code"></i></a>
+            </div>
+        </div>
+        <div class="content">
+            <!-- Header Start -->
+            <div class="header" id="header">
+                <div class="content-inner">
+                    <p>I'm</p>
+                    <h1>Manichandra Donthula</h1>
+                    <h2></h2>
+                    <div class="typed-text">
+                        Computer Science Graduate, Software Developer, Back End Developer, Web Developer, Full Stack
+                        Developer
+                    </div>
+                </div>
+            </div>
+            <!-- Header End -->
+
+            <!-- Large Button Start -->
+            <div class="large-btn">
+                <div class="content-inner">
+                    <a class="btn" href="https://md-portfolio.short.gy/Resume" target="_blank"
+                        rel="noopener noreferrer"><i class="fa fa-download"></i>Resume</a>
+                    <a class="btn" href="#contact"><i class="fa fa-hands-helping"></i>Get in Touch</a>
+                </div>
+            </div>
+            <!-- Large Button End -->
+
+            <!-- About Start -->
+            <div class="about" id="about">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <!-- <img src="assets/about.jpg" alt="Image"> -->
+                        </div>
+                        <div class="col-md-6 col-lg-7">
+                            <p>
+                                As an ambitious and hardworking individual, seeking an opportunity to apply my
+                                programming experience and knowledge gained from both the coursework and personal
+                                projects to solve real world problems.
+                            </p>
+                            <a class="btn" href="#contact">Get in Touch</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="skills">
+                                <div class="skill-name">
+                                    <p>Data Structures</p>
+                                    <p>85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Machine Learning</p>
+                                    <p>55%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skills">
+                                <div class="skill-name">
+                                    <p>Back End Development</p>
+                                    <p>80%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Front End Development</p>
+                                    <p>65%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                                        aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- Education Start -->
+            <div class="education" id="education">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="column-md-12">
+                            <div class="edu-col">
+                                <span>Aug-2022 <i>to</i> May-2025</span>
+                                <h3>SR University</h3>
+                                <h4>Bachelor of Technology in Computer Science and Engineering</h4>
+                                <p><strong>CGPA: 9.06</strong></p>
+                            </div>
+                        </div>
+                        <div class="column-md-12">
+                            <div class="edu-col">
+                                <span>Jun-2019 <i>to</i> May-2022</span>
+                                <h3>Govt. Polytechnic</h3>
+                                <h4>Diploma in Electronics and Communication Engineering</h4>
+                                <p><strong>CGPA: 9.02</strong></p>
+                            </div>
+                        </div>
+                        <div class="column-md-12">
+                            <div class="edu-col">
+                                <span>01-Jan-2020 <i>to</i> 31-Dec-2050</span>
+                                <h3>Jawahar Navodaya Vidyalaya</h3>
+                                <h4>Secondary School (CBSE Class X)</h4>
+                                <p><strong>Percentage: 82</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Education End -->
+
+            <!-- Experience Start -->
+            <div class="experience" id="experience">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>Experience</h2>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="column-md-12">
+                            <div class="exp-col">
+                                <span>Feb-2024 <i>to</i> Apr-2024</span>
+                                <h3>Kenexoft Technologies Pvt. Ltd.</h3>
+                                <h4>Software Engineer Intern</h4>
+                                <ul>
+                                    <li>
+                                        Developed an object recognition model with 89% accuracy using CNN, optimizing
+                                        data processing pipelines for faster performance.
+                                    </li>
+                                    <li>
+                                        Contributed to all phases of development, including data collection, cleaning,
+                                        and pre-processing, while ensuring code reliability through unit and integration
+                                        tests.
+                                    </li>
+                                    <li>
+                                        Collaborated in code reviews and design discussions, focusing on scalable,
+                                        testable code and methods for real-time model deployment. Wrote scalable,
+                                        testable code following best practices, focusing on data handling and
+                                        processing.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="column-md-12">
+                            <div class="exp-col">
+                                <span>Jul-2023 <i>to</i> Aug-2023</span>
+                                <h3>Coincent.ai | Personifwy</h3>
+                                <h4>Data Science Internship</h4>
+                                <ul>
+                                    <li>
+                                        It is a Project based Internship in "Data Science with Python – Microsoft"
+                                        program. Completed 2 months of training based on that.
+                                    </li>
+                                    <li>
+                                        Learned Data Processing techniques and Machine Learning Algorithms. Completed a
+                                        project based on them.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Experience End -->
+
+            <!-- Skills Start -->
+            <div class="skills" id="skills">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>Skills</h2>
+                    </div>
+                    <div class="row align-items-start">
+                        <!-- Programming / Languages     -->
+                        <div class="col-12">
+                            <div class="skl-col">
+                                <h3>Programming / Languages</h3>
+                                <div class="skill-icons">
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/c.svg" type="image/svg+xml"></object>
+                                        <span class="skill-name">C</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/java.svg" type="image/svg+xml"></object>
+                                        <span class="skill-name">Java</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/python.svg" type="image/svg+xml"></object>
+                                        <span class="skill-name">Python</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/sql-database.svg"
+                                            type="image/svg+xml"></object>
+                                        <span class="skill-name">SQL</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Web Development -->
+                        <div class="col-12">
+                            <div class="skl-col">
+                                <h3>Web Development</h3>
+                                <div class="skill-icons">
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/html.svg" type="image/svg+xml"></object>
+                                        <span class="skill-name">HTML</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/css.svg" type="image/svg+xml"></object>
+                                        <span class="skill-name">CSS</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/javascript.svg"
+                                            type="image/svg+xml"></object>
+                                        <span class="skill-name">JavaScript</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/node-js.svg" type="image/svg+xml"></object>
+                                        <span class="skill-name">Node.js</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/express-js.svg"
+                                            type="image/svg+xml"></object>
+                                        <span class="skill-name">Express.js</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Databases -->
+                        <div class="col-12">
+                            <div class="skl-col">
+                                <h3>Databases</h3>
+                                <div class="skill-icons">
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/mongodb.svg" type="image/svg+xml"></object>
+                                        <span class="skill-name">MongoDB</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/mysql.svg" type="image/svg+xml"></object>
+                                        <span class="skill-name">MySQL</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tools & Technologies -->
+                        <div class="col-12">
+                            <div class="skl-col">
+                                <h3>Tools & Technologies</h3>
+                                <div class="skill-icons">
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/git.svg" type="image/svg+xml"></object>
+                                        <span class="skill-name">Git</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/github.svg" type="image/svg+xml"></object>
+                                        <span class="skill-name">GitHub</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/visual-studio-code.svg"
+                                            type="image/svg+xml"></object>
+                                        <span class="skill-name">VS Code</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/jupyter.svg" type="image/svg+xml"></object>
+                                        <span class="skill-name">Jupyter</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <object class="skill-icon" data="svg/postman.svg" type="image/svg+xml"></object>
+                                        <span class="skill-name">Postman</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Skills End -->
+
+            <!-- Project Start -->
+            <div class="project" id="project">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>Projects</h2>
+                    </div>
+                    <div class="row align-items-center project-slider">
+                        <div class="col-md-12">
+                            <div class="project-slider-item">
+                                <div class="project-img">
+                                    <div class="project-name">
+                                        <h3>#1 CS-AI Job Portal</h3>
+                                        <p>MongoDB | Express.js | ReactJS | Node.js</p>
+                                        <img src="assets/project1.png" alt="Image">
+                                    </div>
+                                </div>
+                                <div class="project-text">
+                                    <ul>
+                                        <li>
+                                            Developed a job portal for our university students to find jobs,
+                                            internships, and hackathons, with a Backend architecture using
+                                            <b>Node.js</b> and
+                                            <b>Express.js</b>, created <b>RESTful APIs</b> for job listings, user
+                                            profiles, and
+                                            application data.
+                                        </li>
+                                        <li>
+                                            Implemented <b>JWT</b> based authentication for secure user login and
+                                            role-based
+                                            access control, ensuring data privacy.
+                                        </li>
+                                        <li>
+                                            Integrated <b>MongoDB</b> and <b>Mongoose</b> for scalable data storage,
+                                            with a focus on
+                                            performance and scalability to handle growing users and job postings
+                                            efficiently, while fostering community collaboration and continuous
+                                            improvement through an open-source approach.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="project-slider-item">
+                                <div class="project-img">
+                                    <div class="project-name">
+                                        <h3>#2 Cab Booking System</h3>
+                                        <p>Java | Java Swing | SQL</p>
+                                        <img src="assets/project2.png" alt="Image">
+                                    </div>
+                                </div>
+                                <div class="project-text">
+                                    <ul>
+                                        <li>
+                                            The online cab booking system represents an innovative approach to modern
+                                            transportation, bridging the gap between passengers and drivers through a
+                                            user-friendly digital platform.
+                                        </li>
+                                        <li>
+                                            This system aims to provide a seamless, convenient, and efficient mode of
+                                            booking transportation services using the internet.
+                                        </li>
+                                        <li>
+                                            In this system, passengers can effortlessly access the application or
+                                            website,
+                                            input their location and desired destination, and select from a range of
+                                            available vehicles.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="project-slider-item">
+                                <div class="project-img">
+                                    <div class="project-name">
+                                        <h3>#3 AI Powered Chatbot</h3>
+                                        <p>Python | NLP | TensorFlow</p>
+                                        <img src="assets/project3.png" alt="Image">
+                                    </div>
+                                </div>
+                                <div class="project-text">
+                                    <ul>
+                                        <li>
+                                            The question and answer chatbot on <b>Machine Learning</b> concepts is a
+                                            user-friendly platform that allows beginners to learn about fundamental
+                                            concepts of machine learning in simple human language.
+                                        </li>
+                                        <li>
+                                            The chatbot is built using a <b>Natural Language Lrocessing</b> (NLP)
+                                            architecture,
+                                            which enables it to understand and respond to questions written in simple
+                                            language.
+                                        </li>
+                                        <li>
+                                            The architecture consists of three main components: input module, processing
+                                            module, and output module.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project End -->
+
+            <!-- Portfolio Start -->
+            <div class="portfolio" id="portfolio">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>Portfolio</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul id="portfolio-flters">
+                                <li data-filter="*" class="filter-active">All</li>
+                                <li data-filter=".ml">Machine Learning</li>
+                                <li data-filter=".web-dev">Web Development</li>
+                                <li data-filter=".das">Data Science</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row portfolio-container">
+                        <div class="col-lg-4 col-md-6 portfolio-item das">
+                            <div class="portfolio-wrap">
+                                <figure>
+                                    <img src="assets/portfolio1.png" class="img-fluid" alt="">
+                                    <a href="assets/portfolio1.png" class="link-preview" data-lightbox="portfolio"
+                                        data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="link-details" title="More Details"><i class="fa fa-info-circle"></i></a>
+                                    <a class="portfolio-title" href="https://md-portfolio.short.gy/portfolio1" target="_blank" title="Visit">#1 EDA using Power BI <span>Power BI</span></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item web-dev">
+                            <div class="portfolio-wrap">
+                                <figure>
+                                    <img src="assets/portfolio2.png" class="img-fluid" alt="">
+                                    <a href="assets/portfolio2.png" class="link-preview" data-lightbox="portfolio" Name"
+                                        class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="link-details" title="More Details"><i class="fa fa-info-circle"></i></a>
+                                    <a class="portfolio-title" href="https://md-portfolio.short.gy/portfolio2" target="_blank" title="Visit">#2 CS-AI Job Portal <span>MongoDB, Express.js,
+                                            ReactJS, Node.js</span></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item ml">
+                            <div class="portfolio-wrap">
+                                <figure>
+                                    <img src="assets/portfolio3.png" class="img-fluid" alt="">
+                                    <a href="assets/portfolio3.png" class="link-preview"
+                                        data-lightbox="portfolio" data-title="Project Name" title="Preview"><i
+                                            class="fa fa-eye"></i></a>
+                                    <a href="#" class="link-details" title="More Details"><i class="fa fa-info-circle"></i></a>
+                                    <a class="portfolio-title" href="https://md-portfolio.short.gy/portfolio3" target="_blank" title="Visit">#3 AI Powered Chatbot <span>Python, NLP,
+                                            TensorFlow</span></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item dev">
+                            <div class="portfolio-wrap">
+                                <figure>
+                                    <img src="assets/portfolio4.png" class="img-fluid" alt="">
+                                    <a href="assets/portfolio4.png" class="link-preview"
+                                        data-lightbox="portfolio" data-title="Project Name" title="Preview"><i
+                                            class="fa fa-eye"></i></a>
+                                    <a href="#" class="link-details" title="More Details"><i class="fa fa-info-circle"></i></a>
+                                    <a class="portfolio-title" href="https://md-portfolio.short.gy/portfolio4" target="_blank" title="Visit">#4 Cab Booking System <span>Java, Java Swing,
+                                            SQL</span></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item ml">
+                            <div class="portfolio-wrap">
+                                <figure>
+                                    <img src="assets/portfolio5.png" class="img-fluid" alt="">
+                                    <a href="assets/portfolio5.png" class="link-preview" data-lightbox="portfolio"
+                                        data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
+                                    <a href="#" class="link-details" title="More Details"><i class="fa fa-info-circle"></i></a>
+                                    <a class="portfolio-title" href="https://md-portfolio.short.gy/portfolio5" target="_blank" title="Visit">#5 Object Detection using CNN <span>Python, OpenCV,
+                                            CNN</span></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio End -->
+
+            <!-- Contact Start -->
+            <div class="contact" id="contact">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>Contact</h2>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="contact-info">
+                                <p><i class="fa fa-user"></i>Manichandra Donthula</p>
+                                <p><i class="fa fa-user-graduate"></i>Computer Science Graduate</p>
+                                <p><i class="fa fa-envelope"></i><a href="https://md-portfolio.short.gy/MailID"
+                                        target="_blank">Click to send a Mail</a>
+                                </p>
+                                <p><i class="fa fa-phone"></i><a href="https://md-portfolio.short.gy/PhoneNo"
+                                        target="_blank">Click to Call</a></p>
+                                <p><i class="fa fa-map-marker"></i>Hyderabad, TG, INDIA</p>
+                                <div class="social">
+                                    <a class="btn" href="https://md-portfolio.short.gy/LinkedIn" target="_blank"><i
+                                            class="fa-brands fa-linkedin"></i></a>
+                                    <a class="btn" href="https://md-portfolio.short.gy/GitHub" target="_blank"><i
+                                            class="fa-brands fa-github"></i></a>
+                                    <a class="btn" href="https://md-portfolio.short.gy/LeetCode" target="_blank"><i
+                                            class="fa fa-code"></i></a>
+                                    <!-- <a class="btn" href="https://md-portfolio.short.gy/X" target="_blank"><i class="fa-brands fa-x-twitter"></i></a> -->
+                                    <!-- <a class="btn" href="https://md-portfolio.short.gy/Discord" target="_blank"><i class="fa-brands fa-discord"></i></a> -->
+                                    <!-- <a class="btn" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a> -->
+                                    <!-- <a class="btn" href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form">
+                                <form>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <input type="text" class="form-control" placeholder="Your Name">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <input type="email" class="form-control" placeholder="Your Email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Subject">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                                    </div>
+                                    <div><button class="btn" type="submit">Send Message</button></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact End -->
+
+            <!-- Footer Start -->
+            <div class="footer">
+                <div class="content-inner">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <p>&copy; <a href="#"></a> All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/code.jquery/jquery-3.4.1.min.js"></script> <!-- https://code.jquery.com/jquery-3.4.1.min.js -->
+    <script src="lib/stackpath.bootstrapcdn/bootstrap.bundle.min.js"></script>
+    <!-- https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js -->
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
