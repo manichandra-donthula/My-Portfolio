@@ -433,7 +433,7 @@ a:focus {
 /**********************************/
 .about {
     position: relative;
-    padding: 60px 30px;
+    padding: 40px 20px;
     background: #f3f3f3;
     border-bottom: 10px solid #f3f3f3;
 }
@@ -513,7 +513,7 @@ a:focus {
 /**********************************/
 .education {
     position: relative;
-    padding: 60px 30px;
+    padding: 20px 40px;
     background: #f3f3f3;
     /* display: block; */
 }
@@ -522,7 +522,7 @@ a:focus {
     position: relative;
     width: 100%; /* Ensures each item takes full width of the parent */
     padding: 20px 0 20px 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     border-left: 1px solid #FF6F61;
     border-bottom: 1px solid #FF6F61;
 }
@@ -596,7 +596,7 @@ a:focus {
 /**********************************/
 .experience {
     position: relative;
-    padding: 60px 30px;
+    padding: 20px 40px;
     background: #f3f3f3;
     /* display: block; */
 }
@@ -605,7 +605,7 @@ a:focus {
     position: relative;
     width: 100%; /* Ensures each item takes full width of the parent */
     padding: 20px 20px 20px 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     border-left: 1px solid #FF6F61;
     border-bottom: 1px solid #FF6F61;
 }
@@ -690,7 +690,7 @@ a:focus {
 /**********************************/
 .skills {
     position: relative;
-    padding: 60px 30px 30px 30px;
+    padding: 40px 20px 30px 30px;
     background: #f3f3f3;
     border-bottom: 10px solid #f3f3f3;
 }
@@ -759,7 +759,7 @@ a:focus {
 
 .project .content-inner {
     position: relative;
-    padding: 60px 30px;
+    padding: 40px 20px 30px 30px;
     background: url(../img/quote.png) right bottom no-repeat;
 }
 
@@ -895,7 +895,7 @@ a:focus {
 /**********************************/
 .portfolio {
     position: relative;
-    padding: 60px 30px 30px 30px;
+    padding: 40px 20px 30px 30px;
     background: #f3f3f3;
     border-bottom: 10px solid #f3f3f3;
 }
@@ -1043,7 +1043,7 @@ a:focus {
 /**********************************/
 .contact {
     position: relative;
-    padding: 60px 30px 30px 30px;
+    padding: 40px 20px 30px 30px;
     background: #f3f3f3;
 }
 
